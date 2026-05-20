@@ -148,7 +148,7 @@ const HomeContent = () => {
       <footer id="contact" className="footer">
         <p style={{ margin: 0 }}>
           © 2026 Shop Demo. Liên hệ: zalo@demostore.vn - Số điện thoại: 0123 456
-          789
+          789 789
         </p>
       </footer>
     </div>
