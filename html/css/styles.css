@@ -1,5 +1,5 @@
 .app-container {
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   padding: 24px;
   min-height: 100vh;
   background: #f5f5f7;
@@ -205,6 +205,104 @@
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Layout Trang Chi Tiết */
+.product-detail-page {
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.detail-container {
+  display: flex;
+  gap: 40px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.detail-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.detail-info {
+  flex: 1;
+  text-align: left;
+}
+
+.detail-name {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+}
+
+.detail-price-large {
+  font-size: 1.5rem;
+  color: #ef4444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.detail-description h3 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.detail-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.qty-input {
+  width: 60px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buy-now-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buy-now-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Hiệu ứng chuyển cảnh nhẹ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {
